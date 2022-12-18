@@ -1,0 +1,94 @@
+body{
+ color: black;
+
+}
+
+
+
+h6{
+  font-size: larger;
+
+}
+
+div.who{
+  color: black;
+  text-align: center;
+  font-family: '-apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"';
+  font-size: 4rem;
+  letter-spacing: 0.5rem;
+}
+
+div.what{
+  color: black;
+  text-align: center;
+  font-family: '-apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"';
+  font-size: 2rem;
+  letter-spacing: 0.5rem;
+}
+
+div.work{
+  color: black;
+  text-align: center;
+  font-family: '-apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"';
+  font-size: 2rem;
+  letter-spacing: 0.5rem;
+}
+
+div.links{
+  color: black;
+  text-align: center;
+  font-family: '-apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"';
+  font-size: 2rem;
+  letter-spacing: 0.5rem;
+  margin-bottom: 5px;
+}
+div.links1{
+  color: black;
+  text-align: center;
+  font-family: '-apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"';
+  font-size: 2rem;
+  letter-spacing: 0.5rem;
+  margin-bottom: 5px;
+}
+
+div.links2{
+  color: black;
+  text-align: center;
+  font-family: '-apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"';
+  font-size: 2rem;
+  letter-spacing: 0.5rem;
+}
+
+.my-element{
+  border: 2px solid;
+  border-radius: 1em;
+}
+
+.links::before{
+  content: "git";
+  background-color: red;
+}
+.links::after{
+  content: "hub";
+  background-color: white;
+}
+
+.links1::before{
+  content: "Insta";
+  background-color: red;
+
+}
+.links1::after{
+  content: "gram";
+  background-color: white;
+}
+
+.links2::before{
+  content: "Linked";
+  background-color: red;
+
+}
+.links2::after{
+  content: "in";
+  background-color: white;
+}
